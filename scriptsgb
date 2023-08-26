@@ -17,11 +17,11 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "🔵 • Discord Server Copy",
 	Callback = function()
-      		setclipboard("vapooo")  OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Notification content... what will it say??",
+      		setclipboard("https://discord.gg/XsH2NNthPp")  OrionLib:MakeNotification({
+	Name = "Discord Server Link",
+	Content = "The Discord Link Has Been Copied Successfully! ✅",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 10
 })	end    
 })
 
