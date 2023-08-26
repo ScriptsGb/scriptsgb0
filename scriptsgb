@@ -14,6 +14,12 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Voar|Fly",
+	Callback = function()
+      		setclipboard("vapooo")  	end    
+})
+
 Tab:AddSlider({
 	Name = "Slider",
 	Min = 0,
