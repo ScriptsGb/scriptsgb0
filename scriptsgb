@@ -1,12 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Scripts-Gb", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
-OrionLib:MakeNotification({
-	Name = "Welcome To Scripts-Gb",
-	Content = "Scripts-Gb Has Been Executed Whit Sucess! ✅",
-	Image = "rbxassetid://4483345998",
-	Time = 20
-
 local Tab = Window:MakeTab({
     Name = "🚪 • Home",
     Icon = "rbxassetid://4483345998",
